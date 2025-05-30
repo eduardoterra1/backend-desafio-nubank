@@ -11,10 +11,10 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class ClientesReponseDTO {
+public class ClientesResponseDTO {
 
     private Long id;
     private String nome;
-    private List<ClientesReponseDTO> contatos;
+    private List<ContatoResponseDTO> contatos;
     
 }
